@@ -15,7 +15,7 @@ jobs:
       env:
         SECRET_ID: ${{ secrets.SECRET_ID }}
         SECRET_KEY: ${{ secrets.SECRET_KEY }}
-        BUCKET: 5aa7-static-test-1b91be
+        BUCKET: 5aa7-static-test-1b91be-1301521439
         REGION: ap-shanghai
       run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
     - name: Upload
